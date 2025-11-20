@@ -1,0 +1,225 @@
+@media (max-width:991px) {
+    #mobileMenu {
+        padding: 10px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    }
+
+    li.d-flex a::before {
+        content: "";
+        position: absolute;
+        border: 1px solid var(--gray-scale-gray-200);
+        height: 20px;
+        left: -8px;
+        top: 5px;
+    }
+
+    li.d-flex .counter {
+        position: absolute;
+        top: 3px;
+        left: 30px;
+        border: 1px solid var(--gray-scale-white);
+        border-radius: 16px;
+        width: 18px;
+        height: 18px;
+        background-color: var(--branding-success-dark);
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 18px;
+        text-align: center;
+        color: var(--gray-scale-white);
+        z-index: 1;
+    }
+
+    .menuBtn {
+        border: none;
+        background: transparent;
+    }
+
+    .offcanvas {
+        transition: transform 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55) !important;
+    }
+
+    .offcanvas-header {
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    }
+
+    .offcanvasMenu ul li {
+        margin-top: 18px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 150%;
+        color: var(--gray-scale-gray-500);
+
+        &:hover {
+            color: var(--branding-success);
+        }
+    }
+
+    .socialIcon {
+        margin-top: 100px;
+        margin-left: 25px;
+    }
+
+    .socialIcon a:hover {
+        color: var(--branding-success);
+    }
+
+    /* catagory submenu start */
+
+    .offcanvasMenu .subMenu button {
+        border: none;
+        background: transparent;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 150%;
+        color: var(--gray-scale-gray-500);
+
+        &:hover {
+            color: var(--branding-success);
+        }
+    }
+
+    .offcanvasMenu .subMenu .mobileSubmenu {
+        padding: 2px 0 10px 15px;
+        display: none;
+        background-color: var(--gray-scale-gray-50);
+        width: 100%;
+        box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+    }
+
+    .offcanvasMenu .subMenu .mobileSubmenu a {
+        font-size: 16px;
+
+    }
+
+    /* cart offcanvas start */
+    .cartOffcanvas .cartContant {
+        width: 80vw;
+    }
+
+    .cartOffcanvas.active .cartContant {
+        transform: translateX(30vw);
+    }
+
+    .cartContant .cartHeader p {
+        font-size: 18px;
+    }
+
+    .cartContant .cartHeader button {
+        font-size: 16px;
+    }
+
+    .cartContant .cartDetails p {
+        font-size: 25px;
+    }
+
+    .cartContant .cartDetails button {
+        width: 180px;
+        height: 45px;
+        font-size: 14px;
+    }
+
+    /* serch product aside start */
+    .productSearch {
+        position: fixed;
+        background-color: rgba(0, 0, 0, 0.3);
+        height: 100vh;
+        inset: 0;
+        z-index: 99;
+        opacity: 0;
+        visibility: hidden;
+        transition: 0.6s
+    }
+
+    .active {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .productSearch .searchContant {
+        width: inherit;
+        height: 60vh;
+        background-color: #fff;
+        transform: translateY(-100%);
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+  
+
+    .productSearch.active .searchContant {
+        transform: translateY(0);
+        transition: transform 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    }
+
+    .productSearch .closeSearch {
+       margin-top: 10px;
+        border: none;
+        background: transparent;
+        align-self: self-end;
+        font-size: 22px;
+
+    }
+.productSearch .closeSearch:hover{
+    color: red;
+}
+
+input[name="search-products"]{
+    width: 100%;
+    height: 60px;
+    border: none;
+    border-bottom: 2px solid var(--gray-scale-gray-500);
+    padding: 10px;
+    outline-color: var(--gray-scale-gray-50);
+    border-radius: 15px;
+    
+    
+}
+input[name="search-products"]::placeholder{
+    font-size: 20px;
+    padding: 7px;
+}
+
+/* banner section start */
+.bannerSlide .bannerTxt h2 {
+    font-size: 40px;
+}
+.primary-btn{
+    width: 170px;
+    height: 45px;
+    padding: 13px 35px;
+    font-size: 14px;
+}
+.slick-dots{
+    display: none;
+}
+.slick-dots li button{
+    display: none;
+}
+.bannerSlide .bannerTxt h5,.bannerSlide .bannerTxt h5 span{
+    font-size: 25px;
+    margin: 15px 0 8px;
+}
+.support{
+    position: static;
+    top: auto;
+    right: auto;
+    margin-top:-30px;
+width:220px;
+height: 100px;
+
+}
+.support .contants{
+   padding: 10px 0 0 10px;
+}
+.support .contants h5{
+    font-size: 14px;
+}
+.support .contants p{
+    font-size: 12px;
+}
+
+/* banner section end */
+
+}
