@@ -94,11 +94,11 @@
 
     /* cart offcanvas start */
     .cartOffcanvas .cartContant {
-        width: 80vw;
+        width: 80vw !important;
     }
 
     .cartOffcanvas.active .cartContant {
-        transform: translateX(30vw);
+        transform: translateX(27vw);
     }
 
     .cartContant .cartHeader p {
@@ -182,12 +182,19 @@ input[name="search-products"]::placeholder{
 }
 
 /* banner section start */
+#banner{
+    background-image: none;
+    padding-bottom: 30px;
+}
 .bannerSlide .bannerTxt h2 {
     font-size: 40px;
 }
+.bannerTxt{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
 .primary-btn{
-    width: 170px;
-    height: 45px;
+    
     padding: 13px 35px;
     font-size: 14px;
 }
@@ -201,25 +208,144 @@ input[name="search-products"]::placeholder{
     font-size: 25px;
     margin: 15px 0 8px;
 }
-.support{
-    position: static;
-    top: auto;
-    right: auto;
-    margin-top:-30px;
-width:220px;
-height: 100px;
-
-}
-.support .contants{
-   padding: 10px 0 0 10px;
-}
-.support .contants h5{
-    font-size: 14px;
-}
-.support .contants p{
-    font-size: 12px;
-}
-
 /* banner section end */
+/* support start */
+#support .contants{
+   padding: 10px;
+    transform: translateY(0);
+}
+#support .contants h5{
+    font-size: 15px;
+}
+#support .contants p{
+    font-size: 13px;
+}
+/* support end */
+/* product section start */
+#puoducts{
+    padding: 50px 0;
+}
+.productsHeader h2{
+    font-size: 30px;
+}
+.productsHeader ul li a{
+    font-size: 14px;
+    font-weight: 300;
+    padding:6px;
+}
+.productIntro{
+    margin-top: 25px;
+}
+/* product section end */
+
+/* drink section start */
+#drink{
+    padding: 50px 0;
+}
+#drink .drinkTxt{
+    margin-bottom: 20px;
+}
+/* drink section end */
+
+/* countdown deal start */
+#countdownDeal{
+    padding-bottom: 40px;
+}
+#countdownDeal .text-center h3{
+    font-size: 30px;
+}
+#countdownDeal .time span{
+    padding: 17px;
+&>h5{
+    font-size: 28px;
+}
+&>p{
+    font-size: 13px;
+}
+}
+/* countdown deal end */
+/* featured products start */
+#featuredProduct{
+    padding: 50px 0;
+}
+.featuredHeading h2 {
+    font-size: 35px;
+}
+/* featured products start */
+/* testomonial start */
+#testomonial{
+    padding: 50px 0;
+}
+#testomonial .clintImg img{
+    margin-left: 42%;
+}
+/* testomonial end */
+/* news section start */
+
+#news {
+    padding: 50px 0;
+}
+/* news section end */
+/* newsLatter section start */
+#newsLatter h5{
+    padding-left: 0;
+    margin-bottom: 10px;
+}
+#newsLatter p {
+    padding-left:0 ;
+    margin-bottom: 30px;
+}
+#newsLatter form input{
+    padding: 7px 20px;
+     &::placeholder {
+        font-size: 14px;
+     }
+}
+#newsLatter form .subBtn{
+    padding: 10px 20px;
+    font-size: 13px;
+    right: 0;
+    top: 2px;
+}
+/* newsLatter section end */
+/* footer start */
+#footer{
+    padding-top: 50px;
+}
+#footer .contactLinks{
+    padding-inline-start: 90px;
+    margin-block-end: 30px;
+}
+#footer .col-lg-2{
+    margin-block-end: 20px;
+}
+.instaImg{
+    padding-inline: 70px;
+}
+
+.socialIcon{
+    margin-block-end: 30px;
+    margin-block-start: 0;
+    padding-left: 60px;
+}
+.socialIcon a:hover,
+.socialIcon a.active:hover {
+
+    border-radius: 50%;
+    background-color: var(--branding-success);
+    color: var(--gray-scale-white);
+}
+
+.paymentIcons{
+    margin-block-end: 30px;
+}
+.copyRight{
+    border-top: 1px solid var(--gren-gray-scale-300);
+    padding: 20px 0 0;
+}
+/* footer end */
+
+
+
 
 }

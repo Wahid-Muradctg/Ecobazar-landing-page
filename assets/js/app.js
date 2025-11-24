@@ -28,12 +28,51 @@ $(document).ready(function () {
     })
     $('.showBanner').slick({
         dots: true,
-        fade:true,
-        speed:500,
+        fade: true,
+        speed: 500,
         prevArrow: '.leftArrow',
         nextArrow: '.rightArrow',
     });
     // clint testomonial part
-    
+    $('#forMobile').slick({
+        slidesToShow: 1,
+        arrows: false,
+        dots: false,
+        responsive: [
+            {
+                breakpoint: 1400,
+                settings: "unslick"
+            },
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 1,
+                    autoplay: true,
+                    autoplaySpeed: 2500,
+                }
+            }
+        ]
+    });
+    // news section part
+
+    $('#newsCards').slick({
+        slidesToShow: 1,
+        arrows: false,
+        dots: false,
+        responsive: [
+            {
+                breakpoint: 1400,
+                settings: "unslick"
+            },
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 1,
+                    autoplay: true,
+                    autoplaySpeed: 2500,
+                }
+            }
+        ]
+    });
 
 })
