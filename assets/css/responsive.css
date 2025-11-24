@@ -211,14 +211,17 @@ input[name="search-products"]::placeholder{
 /* banner section end */
 /* support start */
 #support .contants{
-   padding: 10px;
-    transform: translateY(0);
+   padding: 15px 0 15px 13px;
 }
 #support .contants h5{
-    font-size: 15px;
+    font-size: 14px;
 }
 #support .contants p{
-    font-size: 13px;
+    font-size: 12px;
+}
+#support .contants iconify-icon{
+    font-size: 28px;
+    padding: 8px;
 }
 /* support end */
 /* product section start */
@@ -313,7 +316,7 @@ input[name="search-products"]::placeholder{
     padding-top: 50px;
 }
 #footer .contactLinks{
-    padding-inline-start: 90px;
+    padding-inline-start: 70px;
     margin-block-end: 30px;
 }
 #footer .col-lg-2{
