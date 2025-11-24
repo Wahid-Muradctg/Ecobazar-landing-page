@@ -325,6 +325,7 @@ input[name="search-products"]::placeholder{
 .instaImg{
     justify-content: center;
     align-items: center;
+    padding: 0 45px;
 }
 
 .socialIcon{
