@@ -214,14 +214,14 @@ input[name="search-products"]::placeholder{
    padding: 15px 0 15px 10px;
 }
 #support .contants h5{
-    font-size: 13px;
+    font-size: 12px;
 }
 #support .contants p{
-    font-size: 11px;
+    font-size: 10px;
 }
 #support .contants iconify-icon{
-    font-size: 28px;
-    padding: 8px;
+    font-size: 26px;
+    padding: 7px;
 }
 /* support end */
 /* product section start */
@@ -258,12 +258,12 @@ input[name="search-products"]::placeholder{
     font-size: 30px;
 }
 #countdownDeal .time span{
-    padding: 25px;
+    padding: 20px;
 &>h5{
-    font-size: 30px;
+    font-size: 27px;
 }
 &>p{
-    font-size: 14px;
+    font-size: 13px;
 }
 }
 /* countdown deal end */
@@ -323,7 +323,8 @@ input[name="search-products"]::placeholder{
     margin-block-end: 20px;
 }
 .instaImg{
-    padding-inline: 70px;
+    justify-content: center;
+    align-items: center;
 }
 
 .socialIcon{
