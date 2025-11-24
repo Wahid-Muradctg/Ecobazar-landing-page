@@ -229,12 +229,12 @@ input[name="search-products"]::placeholder{
     padding: 50px 0;
 }
 .productsHeader h2{
-    font-size: 28px;
+    font-size: 24px;
 }
 .productsHeader ul li a{
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 300;
-    padding:6px;
+    padding:2px;
 }
 .productIntro{
     margin-top: 25px;
@@ -257,13 +257,14 @@ input[name="search-products"]::placeholder{
 #countdownDeal .text-center h3{
     font-size: 30px;
 }
+
 #countdownDeal .time span{
-    padding: 20px;
+    padding: 14px;
 &>h5{
-    font-size: 27px;
+    font-size: 24px;
 }
 &>p{
-    font-size: 13px;
+    font-size: 11px;
 }
 }
 /* countdown deal end */
@@ -308,7 +309,7 @@ input[name="search-products"]::placeholder{
     padding: 10px 20px;
     font-size: 13px;
     right: 0;
-    top: 2px;
+    top: 0;
 }
 /* newsLatter section end */
 /* footer start */
@@ -316,7 +317,7 @@ input[name="search-products"]::placeholder{
     padding-top: 50px;
 }
 #footer .contactLinks{
-    padding-inline-start: 70px;
+    padding-inline-start: 50px;
     margin-block-end: 30px;
 }
 #footer .col-lg-2{
