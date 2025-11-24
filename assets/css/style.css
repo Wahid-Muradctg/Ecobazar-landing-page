@@ -1172,14 +1172,15 @@ iconify-icon [icon="solar:heart-outline"] {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
     gap: 8px;
 }
 
-.instaImg img {
+/* .instaImg img {
 
     object-fit: cover;
     border-radius: 6px;
-}
+} */
 
 .footerBottom {
     padding: 24px 0;
